@@ -2,7 +2,7 @@ Data Quality Auditor (Python)
 
  Project Overview
 
-This project was developed to streamline Quality Assurance (QA) workflows for large-scale data evaluation projects. It uses the Pandas library to automate the identification of anomalies in search relevance datasets.
+This project was developed to streamline Quality Assurance workflows for large-scale data evaluation projects. It uses the Pandas library to automate the identification of anomalies in search relevance datasets.
 
 Problem Solved: In high-volume data labeling, manual audits for missing metadata or inconsistent relevance scores are time-consuming and prone to human error. This script automates the first pass of QA, allowing the evaluator to focus on complex edge cases.
 
@@ -17,6 +17,8 @@ Problem Solved: In high-volume data labeling, manual audits for missing metadata
 *Language: Python 
 *Library: Pandas (Data Manipulation) 
 
+########################################################################################
+
  How to Run
 To test this script locally, follow these steps:
 
@@ -27,7 +29,7 @@ To test this script locally, follow these steps:
 2. Install dependencies:
 Ensure you have Python installed, then install the Pandas library:
    ```bash
-   pip install pandas
+   pip install -r requirements.txt
 
   Expected Output
   
