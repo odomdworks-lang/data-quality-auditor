@@ -16,3 +16,19 @@ Problem Solved: In high-volume data labeling, manual audits for missing metadata
  
 *Language: Python 
 *Library: Pandas (Data Manipulation) 
+
+ How to Run
+To test this script locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/odomdworks-lang/data-quality-auditor.git](https://github.com/odomdworks-lang/data-quality-auditor.git)
+
+2. Install dependencies:
+Ensure you have Python installed, then install the Pandas library:
+   ```bash
+   pip install pandas
+
+  Expected Output
+  
+The script will generate a summary of the data audit, specifically flagging rows that fail the "Low Relevance" or "Incomplete Metadata" checks.
